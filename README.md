@@ -16,7 +16,7 @@ $ cmd version
 ((build_time(1970-01-01 01:00:00.000000+01:00))(x_library_inlining false)(portable_int63 true)(dynlinkable_code false)(ocaml_version"")(executable_path"")(build_system""))
 NO_VERSION_UTIL
 
-$cmd -version
+$ cmd -version
 NO_VERSION_UTIL
 ```
 
