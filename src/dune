@@ -1,0 +1,7 @@
+(library
+ (name command_unix_for_opam)
+ (public_name command-unix-for-opam)
+ (flags -w +a-4-40-41-42-44-66 -warn-error +a)
+ (libraries base core.command core_unix.command_unix dune-build-info)
+ (preprocess
+  (pps ppx_sexp_value)))
