@@ -1,4 +1,4 @@
-(lang dune 3.11)
+(lang dune 3.12)
 
 (name command-unix-for-opam)
 
@@ -21,8 +21,6 @@
  (depends
   (ocaml
    (>= 5.1))
-  (dune
-   (>= 3.11))
   (base
    (and
     (>= v0.16)
@@ -36,7 +34,7 @@
     (>= v0.16)
     (< v0.17)))
   (dune-build-info
-   (>= 3.11))
+   (>= 3.12))
   (ppx_sexp_value
    (and
     (>= v0.16)
