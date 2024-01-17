@@ -18,7 +18,6 @@
 (package
  (name command-unix-for-opam)
  (synopsis "Improve Core Commands distributed with opam")
- (description "Improve Core Commands distributed with opam")
  (depends
   (ocaml
    (>= 5.1))
