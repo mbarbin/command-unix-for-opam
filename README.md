@@ -1,7 +1,6 @@
 # command-unix-for-opam
 
 [![CI Status](https://github.com/mbarbin/command-unix-for-opam/workflows/ci/badge.svg)](https://github.com/mbarbin/command-unix-for-opam/actions/workflows/ci.yml)
-[![Deploy odoc Status](https://github.com/mbarbin/command-unix-for-opam/workflows/deploy-odoc/badge.svg)](https://github.com/mbarbin/command-unix-for-opam/actions/workflows/deploy-odoc.yml)
 
 ## Motivations
 
@@ -47,3 +46,8 @@ The current usage is to add a dependency to `command-unix-for-opam` in the bin's
 - let () = Command_unix.run My_core_cmd.command
 + let () = Command_unix_for_opam.run My_core_cmd.command
 ```
+
+## Code documentation
+
+The code documentation of the latest release is built with `odoc` and published
+to `GitHub` pages [here](https://mbarbin.github.io/command-unix-for-opam).
