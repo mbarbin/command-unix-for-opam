@@ -8,12 +8,12 @@ homepage: "https://github.com/mbarbin/command-unix-for-opam"
 doc: "https://mbarbin.github.io/command-unix-for-opam/"
 bug-reports: "https://github.com/mbarbin/command-unix-for-opam/issues"
 depends: [
-  "dune" {>= "3.12"}
+  "dune" {>= "3.13"}
   "ocaml" {>= "5.1"}
   "base" {>= "v0.16" & < "v0.17"}
   "core" {>= "v0.16" & < "v0.17"}
   "core_unix" {>= "v0.16" & < "v0.17"}
-  "dune-build-info" {>= "3.12"}
+  "dune-build-info" {>= "3.13"}
   "ppx_sexp_value" {>= "v0.16" & < "v0.17"}
   "odoc" {with-doc}
 ]
