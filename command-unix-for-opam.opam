@@ -10,11 +10,11 @@ bug-reports: "https://github.com/mbarbin/command-unix-for-opam/issues"
 depends: [
   "dune" {>= "3.15"}
   "ocaml" {>= "5.1"}
-  "base" {>= "v0.16" & < "v0.17"}
-  "core" {>= "v0.16" & < "v0.17"}
-  "core_unix" {>= "v0.16" & < "v0.17"}
+  "base" {>= "v0.17" & < "v0.18"}
+  "core" {>= "v0.17" & < "v0.18"}
+  "core_unix" {>= "v0.17" & < "v0.18"}
   "dune-build-info" {>= "3.15"}
-  "ppx_sexp_value" {>= "v0.16" & < "v0.17"}
+  "ppx_sexp_value" {>= "v0.17" & < "v0.18"}
   "odoc" {with-doc}
 ]
 build: [
