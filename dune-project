@@ -1,4 +1,4 @@
-(lang dune 3.15)
+(lang dune 3.16)
 
 (name command-unix-for-opam)
 
@@ -34,7 +34,7 @@
     (>= v0.17)
     (< v0.18)))
   (dune-build-info
-   (>= 3.15))
+   (>= 3.16))
   (ppx_sexp_value
    (and
     (>= v0.17)
