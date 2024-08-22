@@ -2,6 +2,14 @@
 
 [![CI Status](https://github.com/mbarbin/command-unix-for-opam/workflows/ci/badge.svg)](https://github.com/mbarbin/command-unix-for-opam/actions/workflows/ci.yml)
 
+:warning: This repository is now a public archive.
+
+I ended up going a different route to distribute OCaml clis via opam: https://github.com/mbarbin/commandlang
+
+I have stopped developping the `command-unix-for-opam` project and will not be maintaining it forward.
+
+---
+
 ## Motivations
 
 This util library is meant to improve compatibility of core commands meant to be
